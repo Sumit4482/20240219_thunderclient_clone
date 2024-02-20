@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="request">
+
+        <div class="urlSection">
+        <select name="request-type" class="request-type">
+          <option value="GET">GET</option>
+          <option value="POST">POST</option>
+          <option value="PUT">PUT</option>
+          <option value="DELETE">DELETE</option>
+        </select>
+        <input type="url" class="urlBar" />
+        <button class="sendButton"> 
+            Send
+        </button>
+      </div>
+
+      <div class="switchTabs">
+        <div class="tab">
+            <button class="tablinks" onclick="openCity(event, 'Query')">Query</button>
+            <button class="tablinks" onclick="openCity(event, 'Headers')">Headers</button>
+            <button class="tablinks" onclick="openCity(event, 'Auth')">Auth</button>
+            <button class="tablinks" onclick="openCity(event, 'Body')">Body</button>
+            <button class="tablinks" onclick="openCity(event, 'Test')">Test</button>
+            <button class="tablinks" onclick="openCity(event, 'Pre Run')">Pre Run</button>
+        </div>
+    
+        <div id="Query" class="tabcontent">
+            Query Parameters
+            <br>
+            <br>
+            <input type="text" class="queryParamKey" placeholder="parameters">
+            <input type="text" class="queryParamValue" placeholder="value">
+            <br>
+            <br>
+            <input type="text" class="queryParamKey" placeholder="parameters">
+            <input type="text" class="queryParamValue" placeholder="value">
+        </div>
+        
+        <div id="Headers" class="tabcontent">
+            <h3>Headers</h3>
+        </div>
+        <div id="Auth" class="tabcontent">
+            <h3>Auth</h3>
+        </div>
+        <div id="Body" class="tabcontent">
+            <h3>Body</h3>
+        </div>
+        <div id="Test" class="tabcontent">
+            <h3>Test</h3>
+        </div>
+        <div id="Pre Run" class="tabcontent">
+            <h3>Pre Run</h3>
+        </div>
+    </div>
+      
+    </div>
+
+      <div class="response">
+
+        <pre style="font-size: 14px;">Status : <span style="color: green; font-weight: 800;">200 OK</span>    Size: <span style="color: green; font-weight: 800;">9.09 KB</span>    Time:<span style="color: green; font-weight: 800;"> 52 ms</span></pre>
+         <div class="switchTabs">
+        <div class="tab">
+            <button class="tablinks" onclick="openCity(event, 'Query')">Response</button>
+            <button class="tablinks" onclick="openCity(event, 'Headers')">Headers</button>
+            <button class="tablinks" onclick="openCity(event, 'Auth')">Cookies</button>
+            <button class="tablinks" onclick="openCity(event, 'Body')">Results</button>
+            <button class="tablinks" onclick="openCity(event, 'Test')">Docs</button>
+        </div>
+    
+        <div id="Query" class="tabcontent">
+            Query Parameters
+            <br>
+            <br>
+            <input type="text" class="queryParamKey" placeholder="parameters">
+            <input type="text" class="queryParamValue" placeholder="value">
+            <br>
+            <br>
+            <input type="text" class="queryParamKey" placeholder="parameters">
+            <input type="text" class="queryParamValue" placeholder="value">
+        </div>
+        
+        <div id="Headers" class="restabcontent">
+          <br>
+            <textarea style="background-color: rgb(32, 32, 32); color: white;" rows="12" cols="52">
+
+            </textarea>
+        </div>
+        <div id="Auth" class="tabcontent">
+            <h3>Auth</h3>
+        </div>
+        <div id="Body" class="tabcontent">
+            <h3>Body</h3>
+        </div>
+        <div id="Test" class="tabcontent">
+            <h3>Test</h3>
+        </div>
+        <div id="Pre Run" class="tabcontent">
+            <h3>Pre Run</h3>
+        </div>
+    </div>
+        
+    </div>
+
+    
+    <script src="js/script.js"></script>
+  </body>
+</html>
