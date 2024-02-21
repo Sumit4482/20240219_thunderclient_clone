@@ -23,5 +23,13 @@ This project is a basic Thunder Client clone, providing a simplified interface f
 
 ## Screenshots
 
-![Screenshot 1](ss1.png)
-![Screenshot 2](ss2.png)
+<table>
+  <tr>
+    <td style="padding: 5px;">
+      <img src="ss1.png" alt="Screenshot 1" style="width: 80%;">
+    </td>
+    <td style="padding: 5px;">
+      <img src="ss3.png" alt="Screenshot 2" style="width: 80%;">
+    </td>
+  </tr>
+</table
