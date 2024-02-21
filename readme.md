@@ -19,7 +19,7 @@ This project is a basic Thunder Client clone, providing a simplified interface f
 1. Enter the URL of the API endpoint in the provided input field.
 2. Select the GET request method from the dropdown menu.
 3. Click the "Send" button to initiate the request.
-4. View the response status, size, and time in the response section.
+4. View the response in the response section.
 
 ## Screenshots
 
